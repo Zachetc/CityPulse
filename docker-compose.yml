@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: city_requests_postgres
+    environment:
+      POSTGRES_DB: city_requests
+      POSTGRES_USER: city_user
+      POSTGRES_PASSWORD: city_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - city_requests_pgdata:/var/lib/postgresql/data
+
+volumes:
+  city_requests_pgdata:
