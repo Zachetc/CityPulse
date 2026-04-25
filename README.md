@@ -249,4 +249,4 @@ Planned or possible extensions:
 
 **Zachary Amachee**  
 CIS @ Baruch College  
-Data Engineering • Analytics Engineering • Python • PostgreSQL
+Data Engineering • Python • PostgreSQL
